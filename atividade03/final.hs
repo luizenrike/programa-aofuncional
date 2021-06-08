@@ -1,4 +1,4 @@
-ultimo a b =  reverse(take indice(reverse lista))
+final a b =  reverse(take indice(reverse lista))
 
 main = do
     a <- readLn :: IO Int
