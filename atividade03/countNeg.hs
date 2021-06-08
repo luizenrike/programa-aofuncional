@@ -1,4 +1,4 @@
-soma a = sum[lenght (/a -> x < 0)]
+countNeg x = sum[lenght (/a -> x < 0)]
 
 main = do
     a <- readLn :: IO [Int]
