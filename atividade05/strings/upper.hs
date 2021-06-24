@@ -1,4 +1,4 @@
-toUpper x = head [s | (f, s) <- lista, f == x]
+upper x = head [s | (f, s) <- lista, f == x]
     where lista = zip ['A'..'Z'] ['a'..'z'] ++ [(x, x)]
 
 
