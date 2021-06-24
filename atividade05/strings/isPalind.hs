@@ -1,4 +1,5 @@
-isPalind ys = ys == reverse(ys)
+isPalind ys = ys == reverse(ys) == True
+    | otherwise = False
 
 main = do
     a <- getLine
