@@ -42,8 +42,8 @@ devolucao indice codigo armarios = case pegarArmario indice armarios of
                             Left string -> Left $ string
                             Right (estado, string2) -> if codigo == string2
                                         then if estado /= Livre 
-					                              then Right (Map.insert indice (Livre, string2) armarios) 
-                                         else Left "Armario nao esta alugado"
+					then Right (Map.insert indice (Livre, string2) armarios) 
+                                        else Left "Armario nao esta alugado"
                                         else Left "Codigo incorreto" 
 
 
